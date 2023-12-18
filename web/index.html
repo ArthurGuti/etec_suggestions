@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susgestões Etec</title> <!-- Ver com Codi se pode por um selector de etec (qual etec que é)-->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="VIEW/LoginVIEW.jsp">
+    <link href="VIEW/SugestaoVIEW_Cadastrar.jsp">
+    <link href="VIEW/TesteConexao.jsp">
+    <link href="./js/loginView/index.js">
+    <!--<link rel="website icon" href="images/1612959845243.jpg">-->
+</head>
+<body>
+    <header>
+        <div id="fundoImagem"> 
+            <img id="navbarFoto" src="images/centro-paula-souza-logo.svg ">
+        </div>
+        <div class="flex-container menu">
+        <div>
+            <h1 id="unico" class="texto">Sugestões Etec</h1>
+        </div>
+        <ul class="list-items">
+            <li><a id="bordaUnica" href="#quem-somos">ETEC</a></li>
+            <li><a class="borda" href="#servicos">Sobre-nós</a></li>
+            <li><a class="borda" href="#planos">Vestibulinhos</a></li>
+        </div>      
+        </ul>
+    </header>
+
+    <div class="flex-container apresentacao">
+        <div class="texto-apresentacao">
+            <h4 id="titulo2" class="texto" onclick="trocarTela// fazer abrir uma modal com o js">Etec</h4>
+            <script>
+                let tituloElemento = document.getElementById("titulo2")
+
+                tituloElemento.onclick = trocarTela
+            </script>  
+            <h1 id="titulo" class="texto">Sugestões </h1>
+            <br>
+            <p class="texto">
+                <b>
+                    Transformando
+                </b> a 
+                <b>
+                    ETEC
+                </b>, construindo um futuro melhor para você!
+            </p>
+            <a href="">Deposite sua mensagem!</a>
+        </div>
+
+        <div>
+            <div><img src="images/vetor.jpg" alt="banner de apresentação"></div>
+        </div>
+    </div>
+
+      <div class="flex-container" id="quem-somos">
+          <div>
+            <h2>Quem somos</h2>
+            <p class="alinhamentoTexto">
+                Somos Arthur, João Pedro e Enzo, os visionários por trás do futuro da nossa Etec! Como jovens empreendedores apaixonados 
+                por tecnologia, criamos um web site inovador para coletar suas sugestões.
+            </p>
+            <p class="alinhamentoTexto">
+                Sua voz molda o amanhã da nossa escola. Junte-se a nós no nosso site de sugestões para a Etec e faça a diferença!
+            </p> 
+          </div>
+
+          <div>
+            <img src="images/quemSomos.jpg" alt="Quem somos">
+        </div>
+    </div>       
+    
+    <div class="container-externo">
+        <div class="flex-container" id="servicos">
+            <div>
+                <h2 id="texto" class="texto">É simples!</h2>
+        </div>
+
+        <div class="list-servicos">
+            <div class="item-servico">
+                <div>
+                    <img class="foto" src="images/ideia.png" alt="ideias">
+                </div>
+                <p class="texto">Compartilhe <br> suas Ideias</p>
+            </div>
+
+            <div class="item-servico">
+                <div>
+                    <img class="foto" src="images/escola.png" alt="Escola">
+            </div>
+               <p class="texto">Nossa escola está <br> de portas abertas</p>
+            </div>
+
+            <div class="item-servico">
+                <div><img class="foto" src="images/grafico.png" alt="grafico"></div>
+                <p class="texto">Inovando, Moldamos a <br> escola dos sonhos</p> 
+            </div>
+
+        </div>
+    </div>
+
+    <div class="flex-container" id="planos">
+        <div>
+            <h2>O que coloco na minha sugestão?</h2>
+        </div>
+        <div class="list-planos">
+            <div class="item-plano">
+                <h3>Critica construtiva</h3>
+                <ul>
+                    <li>Salas estão muito escuras.</li>
+                    <li>Professor Fulano está sendo muito breve nas aulas.</li>
+                </ul>
+                <button class="btn">Fazer Critica!</button>
+            </div>
+    
+            
+            <div class="item-plano">
+                <h3>Sugestão</h3>
+                <ul>
+                    <li>Suport integral</li>
+                    <li>Auxilio remoto</li>
+                    <li>Passeios Tecnicos</li>
+                    <li>Projetos inovadores</li>
+                    
+                </ul>
+                <button class="btn">Fazer Critica!</button>
+            </div>
+    
+            
+<!--            <div class="item-plano">
+                <h3>Plano 3</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <button class="btn">Fazer Critica!</button>
+            </div>-->
+        </div>
+    </div>
+
+    <footer>
+        <div class="flex-container footer">
+            <p>&copy; 2023 Centro Paula Souza</p>
+            <p>Desenvolvido por: Arthur Gutierrez, João Pedro e Enzo Mateus </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(222, 225, 237);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40em;
+    height: 22em;
+    background-color: snow;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    padding: 2em;
+    border-radius: 0.3em
+}
+
+.imagem {
+    position: absolute;
+    top: 52%;
+    margin-left: 54%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    /* width: 400px; */
+    padding: 4em;
+}
+
+.titulo {
+    /* margin-left: 1em; */
+    /* margin-top: 1em; */
+    margin-bottom:2.5em;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    font-size: x-large  ;
+}
+
+.textField {
+    margin-bottom: 1.6em; 
+    /* margin-right: 2em; */
+    /* margin-left: 2em; */
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.3em;
+    padding: 0.2em;
+    width: 15em;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(99, 101, 104) 0px 0px 0px 1px inset;
+}
+
+img {
+    width: 150%;
+}
+
+.botao {
+    margin-right: 0.6em;
+    margin-top: 0.8em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+    padding: 0.2em;
+    width: 15%;
+    border: none;
+    color: snow;    
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#salvar {
+    background-color: #65c260;
+    &:hover {
+        background-color: #5ea45a;
+    }
+}
+
+#cancelar {
+    background-color: #D65C5C;
+    &:hover {
+        background-color: #CE3B3B;
+    }
+}
